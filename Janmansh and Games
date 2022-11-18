@@ -1,0 +1,7 @@
+t=int(input())
+for i in range(int(t)):
+    x,y=list(map(int,input().split()))
+    if (x+y)%2==1:
+        print('Jay')
+    else:
+        print('Janmansh')
