@@ -1,0 +1,4 @@
+t=int(input())
+for i in range(0,t):
+    N,M=[int(x) for x in input().split()]
+    print(N*M)
