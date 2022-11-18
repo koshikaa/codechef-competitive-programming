@@ -1,0 +1,9 @@
+r,o,c=map(int,input().split())
+x=20-o
+y=6*x
+s=x*y
+m=c+s
+if m>r:
+    print('YES')
+else:
+    print('NO')
