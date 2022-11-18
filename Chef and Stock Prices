@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    s,a,b,c=map(int,input().split())
+    price=s
+    price=price+price*c/100
+    if(price>=a and price<=b):
+        print("YES")
+    else:
+        print("NO")
