@@ -1,0 +1,3 @@
+for _ in range(int(input())):
+    x=int(input())
+    print("yes" if(x>66 and x<45001) else "no")
