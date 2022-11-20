@@ -1,0 +1,12 @@
+t=int(input())
+for i in range(t):
+    n,s=map(int,input().split())
+    if n<s:
+        t1=n
+        t2=s-n
+        print(abs(t1-t2))
+    elif(n==s):
+        print(n)
+    else:
+        t1=s
+        print(t1)
