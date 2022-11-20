@@ -1,0 +1,12 @@
+t=int(input())
+a=[]
+for i in range(t):
+    y=list(map(int,input().split()))
+    a.append(y)
+for i in range(0,t):
+    if(a[i][0]>a[i][1] and a[i][0]>a[i][2]):
+        print("Alice")
+    elif(a[i][1]>a[i][2]):
+        print("Bob")
+    else:
+        print("Charlie")
