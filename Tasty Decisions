@@ -1,0 +1,11 @@
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    a=x*2
+    b=y*5
+    if(a>b):
+        print('Chocolate')
+    elif(a==b):
+        print('Either')
+    else:
+        print('Candy')
