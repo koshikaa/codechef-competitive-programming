@@ -1,0 +1,11 @@
+T=int(input())
+for i in range(T):
+    ID=input()
+    if ID=="B" or ID=="b":
+        print("BattleShip")
+    elif ID=="C" or ID=="c":
+        print("Cruiser")
+    elif ID=="D" or ID=="d":
+        print("Destroyer")
+    else:
+        print("Frigate")    
