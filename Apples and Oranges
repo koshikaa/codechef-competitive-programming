@@ -1,0 +1,4 @@
+x=int(input())
+a,b=map(int,input().split())
+a=a+b
+print('YES' if a<=x else 'NO') 
