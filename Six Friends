@@ -1,0 +1,7 @@
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    a=x*3
+    b=y*2
+    print(min(a,b))
+    
