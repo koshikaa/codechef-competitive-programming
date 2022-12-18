@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    n,m,k=map(int,input().split())
+    sum=n+k 
+    if(m>=sum):
+        print("yes")
+    else:
+        print("no")
