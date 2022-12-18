@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    product=y*30
+    if(x>=product):
+        print("yes")
+    else:
+        print("no")
