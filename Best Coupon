@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    x=int(input())
+    p1=int(x/10)
+    p2=100
+    if p1>p2:
+        print(p1)
+    else:
+        print(p2)
