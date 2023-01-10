@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    x,y,m=map(int,input().split())
+    z=x*m
+    if z<y:
+        print("yes")
+    else:
+        print("no")
+        
