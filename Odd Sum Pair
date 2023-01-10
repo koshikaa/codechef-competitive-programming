@@ -1,0 +1,11 @@
+t=int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    x=a+b
+    y=b+c
+    z=a+c
+    if(x%2!=0 or y%2!=0 or z%2!=0):
+        print("yes")
+    else:
+        print("no")
+        
