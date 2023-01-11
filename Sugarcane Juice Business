@@ -1,0 +1,6 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    a=50*n
+    b=(int((a/100)*70))
+    print(a-b)
