@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    a,c=map(int,input().split())
+    b=(a+c)//2
+    if(b-a==c-b):
+        print(b)
+    else:
+        b=-1
+        print(b)
