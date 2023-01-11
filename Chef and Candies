@@ -1,0 +1,8 @@
+import math
+t=int(input())
+for i in range(t):
+    n,x=map(int,input().split())
+    if(x>=n):
+        print(0)
+    else:
+        print(math.ceil((n-x)/4))
