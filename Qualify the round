@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    x,a,b=map(int,input().split())
+    p=a*1+b*2
+    if(x<=p):
+        print("Qualify")
+    else:
+        print("Notqualify")
