@@ -1,0 +1,11 @@
+t=int(input())
+for i in range(t):
+    Pa,Pb,Qa,Qb=map(int,input().split())
+    maxa=max(Pa,Pb)
+    maxb=max(Qa,Qb)
+    if maxa>maxb:
+        print("Q")
+    elif maxa==maxb:
+        print("TIE")
+    else:
+        print("P")
