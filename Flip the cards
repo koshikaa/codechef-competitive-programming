@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    n,x=map(int,input().split())
+    y=n-x
+    if(x>y):
+        print(y)
+    else:
+        print(x)
