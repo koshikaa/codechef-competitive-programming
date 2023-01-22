@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    x,y,z=map(int,input().split())
+    time=y//x
+    if time<=z:
+        print(z-time)
+    else:
+        print(0)
