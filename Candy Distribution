@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    n,m=map(int,input().split())
+    k=n/m
+    if k%2==0 and n%m==0:
+        print("yes")
+    else:
+        print("no")
