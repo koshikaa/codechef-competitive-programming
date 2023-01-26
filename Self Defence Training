@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    x=list(map(int,input().split()))
+    count=0
+    for i in x:
+        if i>=10 and i<=60:
+            count+=1
+    print(count)
