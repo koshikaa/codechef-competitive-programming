@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    s,x,y,z=map(int,input().split())
+    if(s>=(x+y+z)):
+        print(0)
+    elif(s<(x+y+z) and ((x+z)<=s or (y+z)<=s)):
+        print(1)
+    else:
+        print(2)
