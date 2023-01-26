@@ -1,0 +1,7 @@
+t=int(input())
+for i in range(t):
+    x1,x2,y1,y2=map(int,input().split())
+    x=abs(x1-y1)
+    y=abs(x2-y2)
+    dist=max(x,y)
+    print(dist)
