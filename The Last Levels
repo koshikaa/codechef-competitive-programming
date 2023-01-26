@@ -1,0 +1,11 @@
+t=int(input())
+for i in range(t):
+    x,y,z=map(int,input().split())
+    if x<3:
+        print(x*y)
+    elif x==3:
+        print(x*y)
+    elif x>3 and x%3==0:
+        print(x*y+((x//3)-1)*z)
+    else:
+        print(x*y+(x//3)*z)
