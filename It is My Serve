@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    p,q=map(int,input().split())
+    r=p+q
+    if r%4==0 or r%4==1:
+        print("Alice")
+    else:
+        print("Bob")
