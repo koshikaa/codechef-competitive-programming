@@ -1,0 +1,17 @@
+t=int(input())
+for i in range(t):
+    a,b,x,y=map(int,input().split())
+    if(a>b):
+        c=a-b
+        if(y>=c):
+            print("yes")
+        else:
+            print("no")
+    elif(b>a):
+        c=b-a
+        if(x>=c):
+            print("yes")
+        else:
+            print("no")
+    else:
+        print("yes")
