@@ -1,0 +1,11 @@
+t=int(input())
+for i in range(t):
+    x1,y1,x2,y2=map(int,input().split())
+    alex=pow(x1,2)+pow(y1,2)
+    bob=pow(x2,2)+pow(y2,2)
+    if(alex>bob):
+        print("alex")
+    elif(bob>alex):
+        print("bob")
+    else:
+        print("equal")
