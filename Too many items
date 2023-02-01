@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    x=int(input())
+    y=x//10
+    if x%10==0:
+        print(y)
+    else:
+        print(y+1)
+    
