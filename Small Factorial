@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    def factorial(n):
+        if n==0:
+            return 1 
+        else:
+            return n*factorial(n-1)
+    l=int(input())
+    print(factorial(l))  
