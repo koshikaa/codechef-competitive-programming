@@ -1,0 +1,12 @@
+T = int(input())
+for i in range(T):
+    N, K = map(int, input().split())
+    A = list(map(int, input().split()))
+    
+    count = 0
+    for i in range(N):
+        result = A[i] + K
+    
+        if result % 7 == 0:
+            count += 1
+    print(count)
