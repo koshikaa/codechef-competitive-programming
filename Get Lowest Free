@@ -1,0 +1,6 @@
+t=int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    d=min(a,b,c)
+    pay=(a+b+c)-d
+    print(pay)
