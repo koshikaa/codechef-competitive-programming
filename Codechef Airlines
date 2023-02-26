@@ -1,0 +1,7 @@
+t=int(input())
+for i in range(t):
+    x,y,z=map(int,input().split())
+    if 10*x>y:
+        print(y*z)
+    else:
+        print(10*x*z)
