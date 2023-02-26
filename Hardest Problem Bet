@@ -1,0 +1,10 @@
+t=int(input())
+for i in range(t):
+    x,y,z=map(int,input().split())
+    if min(x,y,z)==z:
+        print("Alice")
+    elif min(x,y,z)==y:
+        print("Bob")
+    else:
+        print("Draw")
+        
