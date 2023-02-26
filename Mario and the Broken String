@@ -1,0 +1,13 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    l,m=[],[]
+    for i in range(0,n//2):
+        l.append(s[i])
+    for i in range((n//2),n):
+        m.append(s[i])
+    if(l==m):
+        print("yes")
+    else:
+        print("no")
