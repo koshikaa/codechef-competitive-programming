@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    c=list(map(int,input().split()))
+    for i in range(n):
+        if c[i]!=0:
+            power=i
+    print(power)
