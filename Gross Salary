@@ -1,0 +1,13 @@
+t=int(input())
+for i in range(t):
+    hra=0
+    da=0
+    s=int(input())
+    if s<1500:
+        hra=0.1*s
+        da=0.90*s 
+    else:
+        hra=500
+        da=0.98*s
+    print(s+hra+da)
+        
