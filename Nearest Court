@@ -1,0 +1,10 @@
+import math
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    z=x-y
+    a=math.fabs(z)//2
+    if math.fabs(z)%2==0:
+        print(int(a))
+    else:
+        print(int(a+1))
