@@ -1,0 +1,15 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    if len(s)==n:
+        for i in range(0,n,2):
+            if s[i]=="0" and s[i+1]=="0":
+                print("A",end='')
+            elif s[i]=="0" and s[i+1]=="1":
+                print("T",end='')
+            elif s[i]=="1" and s[i+1]=="0":
+                print("C",end='')
+            elif s[i]=="1" and s[i+1]=="1":
+                print("G",end='')
+        print()
