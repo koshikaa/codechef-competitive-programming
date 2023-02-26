@@ -1,0 +1,7 @@
+import math
+t=int(input())
+for i in range(t):
+    b,ls=map(int,input().split())
+    rs_min=math.sqrt(ls**2-b**2)
+    rs_max=math.sqrt(ls**2+b**2)
+    print(rs_min,rs_max)
