@@ -1,0 +1,10 @@
+t=int(input())
+for i in range(t):
+    c=0
+    n,x=map(int,input().split(' '))
+    a=list(map(int,input().split(' ')))
+    b=list(map(int,input().split(' ')))
+    for j in range(n):
+        if(a[j]>=x):
+            c+=b[j]
+    print(c)
