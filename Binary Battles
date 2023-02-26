@@ -1,0 +1,10 @@
+t=int(input())
+for i in range(t):
+    n,a,b=map(int,input().split())
+    c=0
+    for i in range(n):
+        n=n//2
+        c+=1 
+        if n==1:
+            break
+    print((c*(a+b))-b)
