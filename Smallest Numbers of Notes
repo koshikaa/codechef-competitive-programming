@@ -1,0 +1,10 @@
+n=int(input())
+for i in range(n):
+    x=int(input())
+    a=x%100
+    b=a%50
+    c=b%10
+    d=c%5
+    e=d%2
+    f=e%1
+    print ((x//100)+(a//50)+(b//10)+(c//5)+(d//2)+(e//1)+f)
