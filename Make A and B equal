@@ -1,0 +1,19 @@
+t=int(input())
+for i in range(t):
+    a,b=map(int,input().split())
+    if a==b:
+        print('YES')
+    elif a<b:
+        while(a<b):
+            a=a*2
+        if a==b:
+            print('YES')
+        else:
+            print('NO')
+    else:
+        while(b<a):
+            b=b*2
+        if a==b:
+            print('YES')
+        else:
+            print('NO')
