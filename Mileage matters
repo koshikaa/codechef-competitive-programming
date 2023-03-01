@@ -1,0 +1,9 @@
+t=int(input())
+for i in range(t):
+    n,x,y,a,b=map(int,input().split())
+    if((n/a)*x<(n/b)*y):
+        print("Petrol")
+    elif((n/a)*x>(n/b)*y):
+        print("Diesel")
+    else:
+        print("Any")
